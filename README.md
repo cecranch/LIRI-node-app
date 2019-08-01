@@ -48,7 +48,7 @@ This will output the following information to your terminal/bash window:
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 
-<strong>4) node liri.js do-what-it-says</strong>
-Using the fs Node package, LIRI takes the text inside of the random.txt file and uses it to call one of LIRI's command
-It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
+<strong>4) node liri.js do-what-it-says</strong><p>
+Using the fs Node package, LIRI takes the text inside of the random.txt file and uses it to call one of LIRI's command<p>
+It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.<p>
 Edit the text in random.txt to test out the feature for movie-this and concert-this.
