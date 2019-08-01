@@ -7,9 +7,9 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 To retrieve the data, the app will send requests using the axios package to the Bands in Town, Spotify and OMDB APIs.
 
 
-My LIRI Commands:
+<strong>My LIRI Commands:</strong>
 
-<strong>node liri.js concert-this <artist/band name here></strong>
+<strong>1) node liri.js concert-this <artist/band name here></strong>
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
@@ -20,25 +20,22 @@ Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 
 
-
-node liri.js spotify-this-song '<song name here>'
+<strong>2) node liri.js spotify-this-song '<song name here>'</strong>
 
 This will show the following information about the song in your terminal/bash window:
 
-Artist(s)
-The song's name
-A preview link of the song from Spotify
-The album that the song is from
-
+*Artist(s)
+*The song's name
+*A preview link of the song from Spotify
+*The album that the song is from
 
 If no song is provided, the program will default to "The Sign" by Ace of Base.
 
 
 
-node liri.js movie-this '<movie name here>'
+<strong>3) node liri.js movie-this '<movie name here>'</strong>
 
 This will output the following information to your terminal/bash window:
-
    * Title of the movie.
    * Year the movie came out.
    * IMDB Rating of the movie.
@@ -51,3 +48,7 @@ This will output the following information to your terminal/bash window:
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 
+<strong>4) node liri.js do-what-it-says</strong>
+Using the fs Node package, LIRI takes the text inside of the random.txt file and uses it to call one of LIRI's command
+It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
+Edit the text in random.txt to test out the feature for movie-this and concert-this.
