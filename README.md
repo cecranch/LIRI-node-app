@@ -9,7 +9,7 @@ To retrieve the data, the app will send requests using the axios package to the 
 
 My LIRI Commands:
 
-node liri.js concert-this <artist/band name here>
+<strong>node liri.js concert-this <artist/band name here></strong>
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
