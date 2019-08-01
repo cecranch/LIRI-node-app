@@ -33,7 +33,7 @@ If no song is provided, the program will default to "The Sign" by Ace of Base.
 
 
 
-<strong>3) node liri.js movie-this '<movie name here>'</strong>
+<strong>3) node liri.js movie-this 'movie name here'</strong>
 
 This will output the following information to your terminal/bash window:
    * Title of the movie.
@@ -50,5 +50,5 @@ If the user doesn't type a movie in, the program will output data for the movie 
 
 <strong>4) node liri.js do-what-it-says</strong><p>
 Using the fs Node package, LIRI takes the text inside of the random.txt file and uses it to call one of LIRI's command<p>
-It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.<p>
+It should run spotify-this-song for "I Want it That Way," as follows the text in <strong>random.txt.</strong><p>
 Edit the text in random.txt to test out the feature for movie-this and concert-this.
