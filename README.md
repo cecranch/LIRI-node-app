@@ -20,7 +20,7 @@ Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 
 
-<strong>2) node liri.js spotify-this-song '<song name here>'</strong>
+<strong>2) node liri.js spotify-this-song <song name here></strong>
 
 This will show the following information about the song in your terminal/bash window:
 
@@ -33,7 +33,7 @@ If no song is provided, the program will default to "The Sign" by Ace of Base.
 
 
 
-<strong>3) node liri.js movie-this 'movie name here'</strong>
+<strong>3) node liri.js movie-this <movie name here></strong>
 
 This will output the following information to your terminal/bash window:
    * Title of the movie.
