@@ -11,10 +11,10 @@ To retrieve the data, the app will send requests using the axios package to the 
 
 <strong>1) node liri.js concert-this <artist/band name here></strong>
 
-This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
+This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:<p>
 
-Name of the venue
-Venue location
+Name of the venue<p>
+Venue location<p>
 Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 
@@ -24,10 +24,10 @@ Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 This will show the following information about the song in your terminal/bash window:
 
-*Artist(s)
-*The song's name
-*A preview link of the song from Spotify
-*The album that the song is from
+Artist(s)<p>
+The song's name<p>
+A preview link of the song from Spotify<p>
+The album that the song is from<p>
 
 If no song is provided, the program will default to "The Sign" by Ace of Base.
 
