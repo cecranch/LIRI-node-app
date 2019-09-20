@@ -2,10 +2,10 @@
 require("dotenv").config();
 var axios = require("axios");
 var fs = require("fs");
-
+var moment = require("moment");
+var Spotify = require("node-spotify-api");
 // code to import the keys.js file and store it in a variable.
 var keys = require("./keys.js");
-
 
 // You should then be able to access your keys information like so
 var spotify = new Spotify(keys.spotify);
