@@ -19,7 +19,6 @@ Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 
 
-
 <strong>2) node liri.js spotify-this-song <song name here></strong>
 
 This will show the following information about the song in your terminal/bash window:
@@ -52,3 +51,10 @@ If the user doesn't type a movie in, the program will output data for the movie 
 Using the fs Node package, LIRI takes the text inside of the random.txt file and uses it to call one of LIRI's command<p>
 It should run spotify-this-song for "I Want it That Way," as follows the text in <strong>random.txt.</strong><p>
 Edit the text in random.txt to test out the feature for movie-this and concert-this.
+  
+See results below
+
+<img src="https://imgur.com/gallery/QlI14Ybg" alt="command-results"/>
+
+
+
