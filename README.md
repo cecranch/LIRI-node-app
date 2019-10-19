@@ -55,6 +55,10 @@ Edit the text in random.txt to test out the feature for movie-this and concert-t
 See results below
 
 <img src="https://i.imgur.com/tTchBWm.png" alt="concert-this"/>
+<img src="https://i.imgur.com/P1wdPpL.png" alt="do-what-it-says"/>
+<img src="https://i.imgur.com/yFzoX0T.png" alt="movie-this"/>
+<img src="https://i.imgur.com/itWKRdY.png" alt="spotify-this"/>
+
 
 
 
